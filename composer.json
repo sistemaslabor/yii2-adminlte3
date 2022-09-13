@@ -14,12 +14,18 @@
         "php": ">=7.0",
         "yiisoft/yii2": "~2.0.0",
         "yiisoft/yii2-bootstrap4": "~2.0.8",
-        "almasaeed2010/adminlte": "~3.1",
+        "almasaeed2010/adminlte": "dev-master",
         "hail812/yii2-adminlte-widgets": "~1.0.2"
     },
     "autoload": {
         "psr-4": {
             "hail812\\adminlte3\\": "src"
         }
-    }
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/sistemaslabor/AdminLTE"
+        }
+    ]
 }
